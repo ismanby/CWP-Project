@@ -17,12 +17,14 @@ public class Number {
         // Operasi logika OR
         boolean logicalOr = (a < 0 || b > 0);
 
+        // Menyusun hasil dalam format string
         String result = "Sum: " + sum + "\n" +
                         "Product: " + product + "\n" +
                         "Is Equal: " + isEqual + "\n" +
                         "Logical AND: " + logicalAnd + "\n" +
                         "Logical OR: " + logicalOr;
         
+        // Mengembalikan hasil
         return result;
     }
 }
